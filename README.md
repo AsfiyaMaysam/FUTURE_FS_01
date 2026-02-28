@@ -67,23 +67,6 @@ portfolio/
 - Tablet (768px - 1920px)
 - Mobile (320px - 768px)
 
----
-
-## 🚀 Getting Started
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/AsfiyaMaysam/portfolio.git
-   ```
-
-2. Open `index.html` in your browser (or use Live Server)
-
-3. Update with your information
-
-4. Deploy on GitHub Pages or any hosting platform
-
----
-
 ## 🔮 Future Ideas
 
 - 📝 Add certificates section
