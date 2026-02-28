@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asfiya | Full Stack Web Developer Intern</title>
+  
+  <!-- Modern Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="profile-circle">
+          <!-- Replace with your actual photo -->
+          <img src="images/asfiya.jpg" alt="Asfiya Maysam" />
+        </div>
+
+        <div class="hero-text">
+          <h1>
+            Hi, I'm <span class="typewriter">Asfiya Maysam</span>
+          </h1>
+          <h2>Full Stack Web Development Intern</h2>
+          <p>Creating clean, responsive & delightful web experiences</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">See My Work</a>
+            <a href="#contact" class="btn outline">Let's Connect</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title about-title">
+        About<span>Me</span>
+      </h2>
+
+      <div class="modern-about-card">
+        <div class="about-content">
+          <div class="about-text">
+            <p class="lead">
+              Passionate web development intern with experience building responsive single-page applications 
+              and a strong eye for clean, modern user interfaces.
+            </p>
+            <p>
+              Skilled in HTML5, CSS3, JavaScript, PHP, MySQL, Bootstrap, and Git. 
+              I enjoy turning ideas into functional, beautiful web experiences while continuously learning full-stack technologies.
+            </p>
+            <p>
+              Focused on writing maintainable code, creating responsive designs, 
+              and building applications that feel intuitive and delightful to use.
+            </p>
+          </div>
+
+          <div class="tech-badges">
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS3</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">PHP</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">GitHub</span>
+          </div>
+
+          <a href="#skills" class="btn primary">Explore My Skills →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Responsive Design</div>
+        <div class="skill-card">PHP</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">GitHub</div>
+        <div class="skill-card">UI/UX Basics</div>
+        <div class="skill-card">React.js</div>
+        <div class="skill-card">Node.js</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Portfolio Website">
+          <h3>Personal Portfolio</h3>
+          <p>Responsive single-page site with contact form & MySQL backend.</p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="To-Do App">
+          <h3>Task Manager</h3>
+          <p>Simple to-do list app with local storage – built with vanilla JS.</p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/project3.jpg" alt="Next Project">
+          <h3>Next Project</h3>
+          <p>In progress – something exciting with APIs or modern frontend.</p>
+          <div class="project-links">
+            <a href="#">In Development</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form id="contact-form" action="php/contact.php" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required class="form-input" />
+        <input type="email" name="email" placeholder="Your Email" required class="form-input" />
+        <input type="text" name="subject" placeholder="Subject" required class="form-input" />
+        <textarea name="message" placeholder="Your Message" rows="6" required class="form-input textarea"></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+
+      <!-- Social icons moved here -->
+      <div class="contact-social">
+        <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/YOUR-USERNAME" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+      <div id="form-message" class="form-message"></div>
+    </div>
+  </section>
+
+  <!-- Footer (social icons removed) -->
+  <footer>
+    <div class="container">
+      <p>© <?php echo date("Y"); ?> Asfiya • Made with curiosity in Ballari</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
