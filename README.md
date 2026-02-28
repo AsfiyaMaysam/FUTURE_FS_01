@@ -1,68 +1,30 @@
-# 👩‍💻 Portfolio Website
+# Modern Aesthetic Portfolio
 
-✨ Modern UI • Responsive Design • Clean Layout ✨
+Welcome to my modern aesthetic portfolio! Here, you will find a collection of my works that reflect my passion for modern design and aesthetics. Each project showcases my skills and creativity, aiming to provide a visually pleasing experience.
 
+## Projects
 
-## 🎯 Project Overview
+### Project 1: Stylish Website
+- Description: A sleek and modern website designed for a creative agency.
+- Technologies Used: HTML, CSS, JavaScript.
 
-This is my personal portfolio website created to showcase:
+### Project 2: Product Landing Page
+- Description: A high-conversion landing page for a new product launch.
+- Technologies Used: React, Tailwind CSS.
 
-- My skills and technologies
-- My projects
-- My contact information
-- My developer profile
+### Project 3: Personal Blog
+- Description: A personal blog focusing on modern design trends.
+- Technologies Used: Gatsby, GraphQL.
 
-This project was created as part of Future Interns Full Stack Development Task.
+## Skills
+- Web Design
+- Frontend Development
+- UI/UX Design
 
+## Contact
+Feel free to reach out if you want to collaborate or just chat about modern aesthetics!
 
-## 🚀 Live Demo
+- [LinkedIn](https://www.linkedin.com/in/your-profile)
+- [Email](mailto:your-email@example.com)
 
-🔗 Live Website:
-
-https://asfiyamaysam.github.io/FUTURE_FS_01/portfolio/
-
-
-## ✨ Features
-
-### 🧭 Sections
-
-- Home Section
-- About Section
-- Skills Section
-- Projects Section
-- Contact Section
-
-
-## 🛠️ Tech Stack
-
-- HTML
-- CSS
-- JavaScript
-
-
-## 📱 Responsive Design
-
-Works on:
-
-- Desktop
-- Mobile
-- Tablet
-
-
-## 🌟 Project Highlights
-
-- Clean design
-- Easy navigation
-- Responsive layout
-- Professional look
-
-
-## 🔗 Links
-
-GitHub Repository:
-
-https://github.com/asfiyamaysam/FUTURE_FS_01
-
-Live Website:
-
-https://asfiyamaysam.github.io/FUTURE_FS_01/portfolio/
+Thank you for visiting!
