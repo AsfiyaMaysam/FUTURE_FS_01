@@ -22,7 +22,7 @@ A clean, modern portfolio website showcasing my skills, projects, and achievemen
 
 ## 🚀 Live Demo
 
-🔗 **[View Portfolio]([https://asfiyamaysam.github.io/portfolio](https://asfiyamaysam.github.io/FUTURE_FS_01/portfolio/))** *(Add your deployed link)*
+🔗 **[View Portfolio]([https://asfiyamaysam.github.io/FUTURE_FS_01/portfolio/])** *(Add your deployed link)*
 
 ---
 
